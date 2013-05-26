@@ -1,2 +1,16 @@
-<h1>Home</h1>
-{{#linkTo "about"}}About{{/linkTo}}
+<h1>TODOs</h1>
+
+<ul>
+{{#each model}}
+  <li {{bindAttr class="isDone"}}>
+    <label>
+      {{view Ember.Checkbox checkedBinding="isDone" }}
+      {{title}}
+    </label>
+  </li>
+{{/each}}
+</ul>
+
+<div>
+  {{#linkTo "about"}}About{{/linkTo}}
+</div>
