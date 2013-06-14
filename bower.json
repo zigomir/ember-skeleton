@@ -2,8 +2,8 @@
   "name": "ember-skeleton",
   "version": "0.0.0",
   "dependencies": {
-    "ember.js": "~1.0.0-rc.3",
-    "handlebars": "~1.0.0-rc.3",
+    "ember": "~1.0.0-rc.5",
+    "handlebars": "~1.0.0",
     "jquery": "~1.9.1",
     "modernizr": "~2.6.2"
   },
