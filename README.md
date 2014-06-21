@@ -9,3 +9,6 @@ To get started run:
 For build run:
 
     grunt build
+
+
+## Cool story bro, [ember-cli ftw](https://github.com/stefanpenner/ember-cli)
